@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Question 2</title>
     <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </head>
   <body>
     <header>
@@ -23,16 +24,15 @@
     </header>
     <main id="main">
       <div class="left">
-        <h1>Upscaling Made With PW Skills</h1>
+        <h1>Upscaling Made <span id="auto"> </span> With PW Skills</h1>
         <p>
           PW Skills is your one-stop-shop for upscaling. Get maximum value for
-          time
-        </p>
-        <p>
-          and resources you invest, with job-ready courses & high-technology,
+          <br />
+          time and resources you invest, with job-ready courses &
+          high-technology,<br />
           available at the lowest cost.
         </p>
-        <a href="">Explore Courses</a>
+        <div class="explore"><a href="">Explore Courses</a></div>
       </div>
       <div class="right">
         <img
@@ -43,4 +43,12 @@
       </div>
     </main>
   </body>
+  <script>
+    var typed = new Typed("#auto", {
+      strings: ["EASY", "PRACTICAL", "AFFORDABLE"],
+      typeSpeed: 90,
+      backSpeed: 80,
+      loop: true,
+    });
+  </script>
 </html>
