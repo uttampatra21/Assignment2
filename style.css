@@ -73,3 +73,10 @@ header h1 {
 #auto {
   color: #e97862;
 }
+
+th {
+  border: 2px solid;
+}
+td {
+  border: 1px solid;
+}
