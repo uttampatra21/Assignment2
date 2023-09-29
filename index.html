@@ -147,8 +147,10 @@
             <td>
               <ul style="padding: 0 2rem">
                 <li>HTML allows users to create and structure of web page.</li>
-                <li></li>
-                <li></li>
+                <li>
+                  HTML is the combination of Hypertext and Markup language.
+                </li>
+                <li>Hypertext defines the link between the web pages.</li>
               </ul>
             </td>
           </tr>
@@ -157,10 +159,15 @@
             <td>
               <ul style="padding: 0 2rem">
                 <li>
-                  CSS (Cascading Style Sheets) is used to style and layout web
-                  pages
+                  Cascading Style Sheets, fondly referred to as CSS, is a simply
+                  designed language intended to simplify the process of making
+                  web pages presentable.
                 </li>
-                <li></li>
+                <li>CSS allows you to apply styles to web pages.</li>
+                <li>
+                  CSS enables you to do this independent of the HTML that makes
+                  up each web page.
+                </li>
               </ul>
             </td>
           </tr>
@@ -180,6 +187,128 @@
                 <li>Building web servers and developing server applications</li>
               </ul>
             </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- Question 7 -->
+    <div class="question">
+      <p>
+        <strong>
+          7. Build a complex nested list structure representing a multi-level
+          table of contents. Use unordered lists (ul) and list items (li)
+          <br />with inline-block styling to create a structured layout. Apply
+          formatting tags to enhance the presentation of list items.
+        </strong>
+      </p>
+      <div class="ans">
+        <ul>
+          <li>Part 1 : Introduction</li>
+          <li>
+            Part 2 : Getting Started
+            <ul>
+              <li>2.1 : Installing the software</li>
+              <li>
+                2.2 : Creating a new project
+                <ul>
+                  <li>2.2.1 : Project Templete</li>
+                  <li>2.2.2 : Project Templete</li>
+                </ul>
+              </li>
+              <li>
+                2.3 : Exploring the interface
+                <ul>
+                  <li>2.3.1 : Toolbar Feature</li>
+                  <li>
+                    2.3.2 : Panel Layout
+                    <ul>
+                      <li>2.3.2.1 : Docking Panels</li>
+                      <li>2.3.2.2 : Tabbed Interface</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            Part 3 : Advance Topics
+            <ul>
+              <li>
+                3.1 : Working with plugins
+                <ul>
+                  <li>3.1.1 : Installing Plugins</li>
+                  <li>3.1.2 : Plugin Configuration</li>
+                </ul>
+              </li>
+              <li>
+                3.2 : Customizing the UI
+                <ul>
+                  <li>3.2.1 : Changin Themes</li>
+                  <li>3.2.2 : Configuring Shortcuts</li>
+                </ul>
+              </li>
+              <li>
+                3.2 : Optimizing Performance
+                <ul>
+                  <li>3.3.1 : Caching Strategies</li>
+                  <li>3.3.2 : Resource Minification</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Part 4 : Conclusion</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Question 8 -->
+    <div class="question">
+      <p>
+        <strong>
+          8. Create a table to display a conference schedule. Each row
+          corresponds to a time slot, and each column corresponds to a room.
+          <br />
+          Some time slots might have multiple sessions running simultaneously in
+          di88erent rooms. Utilize rowspan and colspan attributes <br />
+          as necessary to accommodate this complex schedule. (use table
+          attribute “cellpadding”. to give extra padding in each table cell ).
+        </strong>
+      </p>
+      <div class="ans">
+        <h1>Conference Schedule</h1>
+        <table style="width: 100%">
+          <tr>
+            <th>Time</th>
+            <th>Room 1</th>
+            <th>Room 2</th>
+            <th>Room 3</th>
+          </tr>
+          <tr>
+            <td rowspan="3">9:00 AM - 10:00 AM</td>
+            <td rowspan="2">Keynote</td>
+            <td rowspan="2">Seassion 1</td>
+            <td rowspan="3">Germany</td>
+          </tr>
+          <tr>
+            <!-- <td rowspan="">10:30 AM - 11:30 AM</td> -->
+          </tr>
+          <tr>
+            <td>Centro Moctezuma</td>
+            <td rowspan="2">Seassion 2</td>
+            <!-- <td>Mexico</td> -->
+          </tr>
+          <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <td>Franc Chang</td>
+            <!-- <td>Mexico</td> -->
+          </tr>
+          <tr>
+            <td rowspan="2">000</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
           </tr>
         </table>
       </div>
